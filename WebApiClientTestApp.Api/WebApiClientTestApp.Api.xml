@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiClientTestApp.Api</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiClientTestApp.Api.Contracts.WeatherForecast">
+            <summary>
+            Holds weather forecast data for a date.
+            </summary>
+        </member>
+        <member name="T:WebApiClientTestApp.Api.Controllers.WeatherForecastController">
+            <summary>
+            API for retrieving weather forecasts.
+            </summary>
+        </member>
+        <member name="M:WebApiClientTestApp.Api.Controllers.WeatherForecastController.Get">
+            <summary>
+            Get the weather forecast for today and 5 days forward.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebApiClientTestApp.Api.Serialization.ShortDateConverter">
+            <summary>
+            Serliazes a DateTime to a string with just the date part.
+            </summary>
+            <remarks>
+            Credits: https://stackoverflow.com/a/58103218/736684
+            </remarks>
+        </member>
+    </members>
+</doc>
