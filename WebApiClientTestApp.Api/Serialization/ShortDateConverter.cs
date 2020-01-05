@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 namespace WebApiClientTestApp.Api.Serialization
 {
     /// <summary>
-    /// Serliazes a DateTime to a string with just the date part.
+    /// Serializes a DateTime to a string with just the date part.
     /// </summary>
     /// <remarks>
     /// Credits: https://stackoverflow.com/a/58103218/736684

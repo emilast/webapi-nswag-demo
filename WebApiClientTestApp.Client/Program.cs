@@ -17,6 +17,8 @@ namespace WebApiClientTestApp.Client
             {
                 Console.WriteLine($"{forecast.Date}: {forecast.TemperatureC} {forecast.TemperatureF} {forecast.Summary}");
             }
+
+            Console.ReadKey();
         }
     }
 }
